@@ -1,7 +1,7 @@
 {
   "name": "tulparbot/extension-container",
   "description": "Tulpar Bot Extension Container",
-  "version": "v1.1",
+  "version": "dev-master",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -21,6 +21,6 @@
   },
   "require": {
     "php": "^8.0",
-    "team-reflex/discord-php": "^6.0"
+    "team-reflex/discord-php": "*"
   }
 }
