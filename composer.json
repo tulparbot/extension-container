@@ -1,0 +1,25 @@
+{
+  "name": "tulparbot/extension-container",
+  "description": "Tulpar Bot Extension Container",
+  "version": "v1.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Isa Eken",
+      "email": "hello@isaeken.com.tr",
+      "homepage": "https://www.isaeken.com.tr",
+      "role": "Founder"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Tulpar\\Extension\\": "src"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
