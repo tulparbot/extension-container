@@ -1,9 +1,12 @@
 {
   "name": "tulparbot/extension-container",
   "description": "Tulpar Bot Extension Container",
-  "version": "dev-master",
-  "type": "library",
-  "license": "MIT",
+  "homepage": "https://github.com/tulparbot",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/tulparbot/tulpar/issues",
+    "source": "https://github.com/tulparbot/tulpar"
+  },
   "authors": [
     {
       "name": "Isa Eken",
@@ -12,15 +15,21 @@
       "role": "Founder"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "require": {
+    "php": "^8.1",
+    "tulparbot/contracts": "^2.0"
+  },
   "autoload": {
     "psr-4": {
       "Tulpar\\Extension\\": "src"
     }
   },
-  "require": {
-    "php": "^8.0",
-    "team-reflex/discord-php": "dev-master"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
   }
 }

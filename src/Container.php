@@ -2,7 +2,7 @@
 
 namespace Tulpar\Extension;
 
-use Tulpar\Extension\Contracts\ExtensionInterface;
+use Tulpar\Contracts\Extension\ExtensionInterface;
 
 class Container
 {
