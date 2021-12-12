@@ -19,6 +19,9 @@
     "php": "^8.1",
     "tulparbot/contracts": "^2.0"
   },
+  "replace": {
+    "tulparbot/contracts": "self.version"
+  },
   "autoload": {
     "psr-4": {
       "Tulpar\\Extension\\": "src"
